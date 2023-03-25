@@ -1,0 +1,69 @@
+body {
+    background-image: url('background.jpeg');
+			background-size: cover;
+			font-family: Arial, sans-serif;
+
+  }
+  h1 {
+    color: #fff;
+			text-align: center;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #result {
+    font-size: 39px;
+    margin-top: 30px;
+  }
+  
+  #computer-choice,
+  #user-choice {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  #scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#scoreboard h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+#scoreboard p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
